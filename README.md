@@ -1,7 +1,7 @@
 TicTacToe
 
-Alex
-Axel
-Levi
-Martijn
+Alex,
+Axel,
+Levi,
+Martijn,
 (sam)
