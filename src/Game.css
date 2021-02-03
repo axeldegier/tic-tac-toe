@@ -1,6 +1,8 @@
 body {
-  font: 20px "Century Gothic", Futura, sans-serif;
+  font: 20px "Fantasy", Copperplate;
   margin-left: 40%;
+  background-color: hotpink;
+  color: white;
 }
 
 ol, ul {
@@ -16,19 +18,20 @@ ol, ul {
   box-sizing: border-box;
   text-decoration:none;
   text-transform:uppercase;
-  font-family:'Roboto',sans-serif;
+  font: 14px "Fantasy", Copperplate;
   font-weight:400;
   color: darkgrey;
   text-align:center;
   transition: all 0.15s;
+  margin-left: 10%;
   }
 .button2:hover{
-  color:gray;
-  border-color:#DDDDDD;
+  color: #DDDDDD;
+  border-color:#BBBBBB;
   }
 .button2:active{
-  color:#BBBBBB;
-  border-color:#BBBBBB;
+  color:gray;
+  border-color:#DDDDDD;
   }
 
 
@@ -44,12 +47,13 @@ ol, ul {
 
 .errorMessage {
   margin-bottom: 10px;
-  color: hotpink;
+  color: lightseagreen;
 }
 
 .square {
   background: #fff;
   border: 4px solid hotpink;
+  color: lightseagreen;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -76,5 +80,7 @@ ol, ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-right: 3px;
+  background: rgba(0, 0, 0, 0.5);
 }

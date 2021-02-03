@@ -57,12 +57,12 @@ class Game extends React.Component {
 
   handleClick(i) {
     if (this.state.winner) {
-      this.setState({errorMessage: "Game finished"});
+      this.setState({errorMessage: "Game afgelopen"});
       return
     }
 
     if (this.state.squares[i] != null ) {
-      this.setState({errorMessage: "Position taken"});
+      this.setState({errorMessage: "Positie bezet"});
       return
     }
 
